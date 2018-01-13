@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MWS Products</title>
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="js/jquery-1.12.3.min.js"></script>
+
+    <!--Main css-->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <!--Navigation-->
+        <nav class="navbar navbar-fixed-top z-depth-1" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="shop.html">Categories</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+
+                    <!-- Navbar Icons -->
+                    <ul class="list-inline pull-right text-center">
+
+                        <li><a href="shop.html" class="waves-effect waves-light m-nav-icons"><i class="fa fa-map"></i><br><span>Shop</span></a></li>
+                        <li><a href="shoppingcart.html" class="waves-effect waves-light m-nav-icons"><i class="fa fa-shopping-cart"></i><br><span>Cart</span></a></li>
+                        <!--Main acocunt with dropdown-->
+                        <li>
+                            <a href="#" class="waves-effect waves-light dropdown-button m-nav-icons" data-activates="account"><i class="fa fa-user"></i><br><span>Account</span></a>
+                            <!-- Account Dropdown -->
+                            <ul id='account' class='dropdown-content'>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="login.html">Logout</a></li>
+                                <li><a href="login.html">Settings</a></li>
+                            </ul>
+                            <!-- /.Account Dropdown -->
+                        </li>
+                        <!--/.Main acocunt with dropdown-->
+
+                    </ul>
+                    <!--/. Navbar Icons -->
+                </div>
+
+
+            </div>
+        </nav>
+        <!--/.Navigation-->
+    </header>
+
+    <!-- Intro image -->
+    <section class="full-bg-img" id="sec-home">
+        <!--Mask-->
+        <div class="view">
+
+            <!--Alignment-->
+            <div class="verticalcenter">
+                <div class="container">
+                    <div class="row">
+
+                        <!--Content-->
+                        <div class="col-md-6 white-text wow fadeInLeft">
+                            <br>
+                            <h2>MWS Products</h2>
+
+                            <p>We focus on proving the best products for our customers</p>
+                            <p>We focus on helping our customers share their products</p>
+                            <a href="shop.html" class="btn btn-primary btn-ptc btn-lg waves-effect waves-light">Buy Now<i class="material-icons right">shopping_cart</i></a>
+
+                        </div>
+                        <!--/.Content-->
+
+                        <!--Form-->
+                        <div class="col-md-6 wow fadeInRight">
+                            <div class="card-panel">
+
+                                <!--Header-->
+                                <div class="text-center">
+                                    <h4><i class="fa fa-user"></i> Login with:</h4>
+                                    <a class="btn-floating btn-large waves-effect waves-light m-fb"><i class="fa fa-facebook"> </i></a>
+                                    <a class="btn-floating btn-large waves-effect waves-light m-tw"><i class="fa fa-twitter"> </i></a>
+                                    <a class="btn-floating btn-large waves-effect waves-light m-gplus"><i class="fa fa-google-plus"> </i></a>
+                                    <a class="btn-floating btn-large waves-effect waves-light m-link"><i class="fa fa-linkedin"> </i></a>
+                                    <a class="btn-floating btn-large waves-effect waves-light m-git"><i class="fa fa-github"> </i></a>
+                                </div>
+                                <!--/.Header-->
+                                <!--Form-->
+                                <form>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Your name</label>
+                                    </div>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="icon_email" type="tel" class="validate">
+                                        <label for="icon_email">Your email</label>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-primary btn-lg btn-ptc waves-effect waves-light">Sign up</button>
+
+                                    </div>
+
+                                </form>
+                                <!--/.Form-->
+                            </div>
+                        </div>
+                        <!--/.Form-->
+
+                    </div>
+                </div>
+            </div>
+            <!--/.Alignment-->
+
+        </div>
+        <!--/.Mask-->
+    </section>
+    <!--/. Intro image -->
+    <main>
+        <!--Main Container-->
+        <div class="container">
+            <!--Section: Basic Product Listing-->
+            <section id="products">
+                <div class="divider-new">Best Products</div>
+                <div class="row">
+
+
+                    <div class="col-md-3">
+
+                        <!--Card-->
+                        <div class="card card-product hoverable m-product">
+
+                            <!--Image-->
+                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                <img src="img/p2.jpg" />
+                            </div>
+                            <!--/.Image-->
+                            <!--Card content: Name and price-->
+                            <div class="card-content text-center">
+                                <div class="row">
+                                    <a href="detail.html"><h5 class="product-title">IPhone 7</h5></a>
+                                </div>
+                                <div class="price">
+                                    <p class="green-text medium-500">$900 <span class="discount light-300 black-text">$1000</span></p>
+                                </div>
+                            </div>
+                            <!--/.Card content: Name and price-->
+
+                            <!--Buttons-->
+                            <div class="card-btn text-center">
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">add_shopping_cart</i></a>
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                            </div>
+                            <!--/.Buttons-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <!--Card-->
+                        <div class="card card-product hoverable m-product">
+
+                            <!--Image-->
+                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                <img src="img/p3.jpg" />
+                            </div>
+                            <!--/.Image-->
+                            <!--Card content: Name and price-->
+                            <div class="card-content text-center">
+                                <div class="row">
+                                    <a href="detail.html"><h5 class="product-title">Note 5</h5></a>
+                                </div>
+                                <div class="price">
+                                    <p class="green-text medium-500">$500 <span class="discount light-300 black-text">$800</span></p>
+                                </div>
+                            </div>
+                            <!--/.Card content: Name and price-->
+
+                            <!--Buttons-->
+                            <div class="card-btn text-center">
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">add_shopping_cart</i></a>
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                            </div>
+                            <!--/.Buttons-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <!--Card-->
+                        <div class="card card-product hoverable m-product">
+
+                            <!--Image-->
+                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                <img src="img/p4.jpg" />
+                            </div>
+                            <!--/.Image-->
+                            <!--Card content: Name and price-->
+                            <div class="card-content text-center">
+                                <div class="row">
+                                    <a href="detail.html"><h5 class="product-title">TPad Pro</h5></a>
+                                </div>
+                                <div class="price">
+                                    <p class="green-text medium-500">$800 <span class="discount light-300 black-text">$900</span></p>
+                                </div>
+                            </div>
+                            <!--/.Card content: Name and price-->
+
+                            <!--Buttons-->
+                            <div class="card-btn text-center">
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">add_shopping_cart</i></a>
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                            </div>
+                            <!--/.Buttons-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <!--Card-->
+                        <div class="card card-product hoverable m-product">
+
+                            <!--Image-->
+                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                <img src="img/p5.jpg" />
+                            </div>
+                            <!--/.Image-->
+                            <!--Card content: Name and price-->
+                            <div class="card-content text-center">
+                                <div class="row">
+                                    <a href="detail.html"><h5 class="product-title">Tablet Pro</h5></a>
+                                </div>
+                                <div class="price">
+                                    <p class="green-text medium-500">$500 <span class="discount light-300 black-text">$900</span></p>
+                                </div>
+                            </div>
+                            <!--/.Card content: Name and price-->
+
+                            <!--Buttons-->
+                            <div class="card-btn text-center">
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">add_shopping_cart</i></a>
+                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                            </div>
+                            <!--/.Buttons-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <div class="col-md-3">
+
+
+                    </div>
+
+            </section>
+            <!--/.Section: Basic Product Listing-->
+            </div>
+    </main>
+    <footer class="page-footer m-blue center-on-small-only">
+        <!--Footer Content-->
+        <div class="container-fluid footer-content">
+
+            <div class="row text-center wow fadeIn">
+
+                <h4 class="white-text wow fadeIn">Find me on social media</h4>
+
+                <a href="https://www.facebook.com/MWS" class="btn-sm-full fb-bg rectangle waves-effect waves-light wow fadeInUp"><i class="fa fa-facebook"> </i> <span>Facebook</span> </a>
+
+                <a href="https://twitter.com/MWS" class="btn-sm-full tw-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.1s"><i class="fa fa-twitter"> </i> <span>Twitter</span></a>
+
+                <a href="https://plus.google.com/+MWS" class="btn-sm-full gplus-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-google-plus"> </i> <span>Google +</span></a>
+
+                <a class="btn-sm-full li-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-linkedin"> </i> <span>LinkedIn</span></a>
+
+                <a class="btn-sm-full ins-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-instagram"> </i> <span>Instagram</span></a>
+
+                <a href="https://www.pinterest.com/MWS/" class="btn-sm-full pin-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-pinterest"> </i> <span>Pinterest</span></a>
+
+                <a class="btn-sm-full yt-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.6s"><i class="fa fa-youtube"> </i> <span>Youtube</span></a>
+
+                <a class="btn-sm-full git-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.7s"><i class="fa fa-github"> </i> <span>Github</span></a>
+
+            </div>
+
+        </div>
+        <!--/.Footer Content-->
+        <div class="footer-copyright text-center rgba-black-light wow fadeIn">
+            <div class="container-fluid">
+                © 2016 Copyright: <a href="#"> MWS.com </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Main -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- SCRIPTS -->
+  <!-- SCRIPTS-->
+    <script>
+        $(document).ready(function () {
+            displayProducts(defaultProducts);
+            
+        });
+  </script>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  background-color: #ECEFF1;
+  font-family:Georgia;
+}
+.full-bg-img {  
+    background: url("../img/bg2.jpg") no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.m-bg {
+    margin: auto;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+.collection-card{
+      background-color: white;
+}
+
+.m-nav-icons{
+    color: white;
+}
+
+ @media only screen and (max-width: 768px) {
+  .full-bg-img, .view {
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+  .full-bg-img .verticalcenter, .view .verticalcenter {
+    top: none;
+    margin-top: 40px;
+    -webkit-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .full-bg-img .container, .view .container {
+    padding-top: 30px;
+  }
+}
+
+ .m-fb{
+  background-color: #3B5998;  
+ }
+ .m-tw{
+      background-color: #55ACEE;
+ }
+ .m-gplus{
+      background-color: #DD4B39;
+ }
+ .m-link{
+      background-color: #0082CA;
+ }
+ .m-git{
+     background-color: #4183C4;
+ }
+.m-blue{
+    background-color: #3F51B5;
+}
+
+.categories{
+    margin-left: 30px;
+}

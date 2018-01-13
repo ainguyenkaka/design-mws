@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MWS Products</title>
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <!--Main css-->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <!--Navigation-->
+        <nav class="navbar navbar-fixed-top z-depth-1 blue" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+
+                    <!-- Navbar Icons -->
+                    <ul class="list-inline pull-right text-center">
+
+                        <li><a href="shop.html" class="waves-effect waves-light m-nav-icons"><i class="fa fa-map"></i><br><span>Shop</span></a></li>
+                        <li><a href="#" class="waves-effect waves-light m-nav-icons"><i class="fa fa-shopping-cart"></i><br><span>Cart</span></a></li>
+                        <!--Main acocunt with dropdown-->
+                        <li>
+                            <a href="#" class="waves-effect waves-light dropdown-button m-nav-icons" data-activates="account"><i class="fa fa-user"></i><br><span>Account</span></a>
+                            <!-- Account Dropdown -->
+                            <ul id='account' class='dropdown-content'>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="login.html">Logout</a></li>
+                                <li><a href="login.html">Settings</a></li>
+                            </ul>
+                            <!-- /.Account Dropdown -->
+                        </li>
+                        <!--/.Main acocunt with dropdown-->
+
+                    </ul>
+                    <!--/. Navbar Icons -->
+                </div>
+
+
+            </div>
+        </nav>
+        <!--/.Navigation-->
+    </header>
+
+
+    <main>
+        <div class="divider-new"></div>
+        <!--Main Container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!--Product Panel-->
+                    <div class="card-panel product-panel hoverable m-panel">
+                        <h4 class="modal-title">Check out</h4>
+                        <hr>
+                        <ul class="collection">
+
+                            <li class="collection-item">
+                                <div>
+                                    <p><span class="quantity"> 1x</span> Product 1 <span class="label green">$9.99</span>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">close</i></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div>
+                                    <p><span class="quantity">2x</span> Product 2 <span class="label green">$19.99</span>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">close</i></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div>
+                                    <p> <span class="quantity">5x</span> Product 3 <span class="label green">$29.99</span>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">close</i></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div>
+                                    <p> <span class="quantity">3x</span> Product 4 <span class="label green">$59.99</span>
+                                        <a href="#!" class="secondary-content"><i class="material-icons">close</i></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <h5>Total<span class="label blue total pull-right">$119.96</span></h5>
+                            </li>
+                        </ul>
+
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Credit Card</button>
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Paypal</button>
+                    </div>
+
+                    <!--/.Product Panel-->
+
+                </div>
+                <div class="col-md-8">
+
+                    <!-- Carousel -->
+                    <div id="carousel-multi-item" class="carousel slide multiitem-car">
+                        <div class="text-center">
+                            <a class="btn-floating  blue darken-4 btn-small waves-effect waves-light" href="#carousel-multi-item" role="button" data-slide="prev"><i class="material-icons">keyboard_arrow_left</i></a>
+                            <a class="btn-floating  blue darken-4 btn-small waves-effect waves-light" href="#carousel-multi-item" role="button" data-slide="next"><i class="material-icons">keyboard_arrow_right</i></a>
+                        </div>
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators" style="height:30px; bottom:-30px;">
+                            <li data-target="#carousel-multi-item" data-slide-to="0" class="active">
+                            </li>
+                            <li data-target="#carousel-multi-item" data-slide-to="1"></li>
+                            <li data-target="#carousel-multi-item" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+
+
+                            <!-- First slide -->
+                            <div class="item active">
+
+                                <!-- Row -->
+                                <div class="row">
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p2.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">IPhone 7</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$900 <span class="discount light-300 black-text">$700</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/macbookpro.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Macbook pro</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$1300 <span class="discount light-300 black-text">$1100</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p4.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">IPad Pro</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$800 <span class="discount light-300 black-text">$900</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p5.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Tablet Pro</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$750 <span class="discount light-300 black-text">$700</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.item -->
+                            <!-- Second slide -->
+                            <div class="item">
+
+                                <!-- Row -->
+                                <div class="row">
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/macbookpro.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Macbook pro</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$1300 <span class="discount light-300 black-text">$1100</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p4.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">IPad Pro</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$800 <span class="discount light-300 black-text">$900</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p5.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Tablet Pro</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$750 <span class="discount light-300 black-text">$700</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p2.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">IPhone 7</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$900 <span class="discount light-300 black-text">$700</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.item -->
+                            <!-- Third slide -->
+                            <div class="item">
+
+                                <!-- Row -->
+                                <div class="row">
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p2.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">IPhone 7</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$900 <span class="discount light-300 black-text">$700</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p2.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">IPhone 7</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$900 <span class="discount light-300 black-text">$700</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+
+                                    <!-- Multi-item column -->
+                                    <div class="col-sm-4 item-card hidden-xs">
+                                        <!--Card-->
+                                        <div class="card card-product hoverable m-product">
+
+                                            <!--Image-->
+                                            <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                                                <a href="detail.html"><img class="m-product-img" src="img/p3.jpg"></a>
+                                            </div>
+                                            <!--/.Image-->
+                                            <!--Card content: Name and price-->
+                                            <div class="card-content text-center">
+                                                <div class="row">
+                                                    <h5 class="product-title">Note 5</h5>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="green-text medium-500 m-product-price">$500 <span class="discount light-300 black-text">$1400</span></p>
+                                                </div>
+                                            </div>
+                                            <!--Buttons-->
+                                            <div class="card-btn text-center">
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn m-add"><i class="material-icons">add_shopping_cart</i></a>
+                                                <a class="btn-floating btn-small waves-effect waves-light blue darken-4 top-btn"><i class="material-icons">share</i></a>
+                                            </div>
+                                            <!--/.Buttons-->
+                                        </div>
+                                        <!--/.Card-->
+                                    </div>
+                                    <!-- /.Multi-item column -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.item -->
+                        </div>
+                        <!-- /.carousel-inner -->
+
+
+                    </div>
+                    <!-- /.carousel -->
+
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="page-footer m-blue center-on-small-only">
+        <!--Footer Content-->
+        <div class="container-fluid footer-content">
+
+            <div class="row text-center wow fadeIn">
+
+                <h4 class="white-text wow fadeIn">Find me on social media</h4>
+
+                <a href="https://www.facebook.com/MWS" class="btn-sm-full fb-bg rectangle waves-effect waves-light wow fadeInUp"><i class="fa fa-facebook"> </i> <span>Facebook</span> </a>
+
+                <a href="https://twitter.com/MWS" class="btn-sm-full tw-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.1s"><i class="fa fa-twitter"> </i> <span>Twitter</span></a>
+
+                <a href="https://plus.google.com/+MWS" class="btn-sm-full gplus-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-google-plus"> </i> <span>Google +</span></a>
+
+                <a class="btn-sm-full li-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-linkedin"> </i> <span>LinkedIn</span></a>
+
+                <a class="btn-sm-full ins-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-instagram"> </i> <span>Instagram</span></a>
+
+                <a href="https://www.pinterest.com/MWS/" class="btn-sm-full pin-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-pinterest"> </i> <span>Pinterest</span></a>
+
+                <a class="btn-sm-full yt-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.6s"><i class="fa fa-youtube"> </i> <span>Youtube</span></a>
+
+                <a class="btn-sm-full git-bg rectangle waves-effect waves-light wow fadeInUp" data-wow-delay="0.7s"><i class="fa fa-github"> </i> <span>Github</span></a>
+
+            </div>
+
+        </div>
+        <!--/.Footer Content-->
+        <div class="footer-copyright text-center rgba-black-light wow fadeIn">
+            <div class="container-fluid">
+                © 2016 Copyright: <a href="#"> MWS.com </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+           displayProducts(defaultProducts);
+           
+           $('.m-add').click(function() {
+               $('ul.collection li:first').after('<li class="collection-item"><div><p><span class="quantity"> 1x</span> Product 1 <span class="label green">$9.99</span><a href="#!" class="secondary-content"><i class="material-icons">close</i></a></p></div></li>');
+           });
+          
+          $(document).on("click","a.secondary-content",function () {
+             $(this).parents('li.collection-item').remove();
+            }); 
+        });
+    </script>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+
+
+</body>
+
+</html>
